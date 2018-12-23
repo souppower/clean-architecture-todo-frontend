@@ -1,0 +1,33 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoapp {
+  width: 550px;
+  margin: 130px 0 40px 0;
+}
+
+.input-wrapper {
+  margin-bottom: 1em;
+}
+
+.todo-item {
+  height: 50px;
+  margin-bottom: 0.8em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-input {
+  width: 100%;
+  padding: 1.4em;
+}
+
+.right-align {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
